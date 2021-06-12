@@ -1,6 +1,6 @@
-package("FoxDynamicShot")
+package("fervor")
     add_urls("https://github.com/knightjun/fervor.git")
-    add_deps("zlib", "RobinLog")
+    add_deps("zlib")
     on_install(function (package)
         if package:config("shared") then
             package:add("PATH", "bin")
