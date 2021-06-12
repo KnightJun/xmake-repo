@@ -1,6 +1,6 @@
 package("DeerShortcut")
 
-    add_urls("git@github.com:Moon-Ocean/DeerShortcut.git")
+    add_urls("git@github.com:Moon-Ocean/knightjun.git")
 
     on_install(function (package)
         if package:config("shared") then
